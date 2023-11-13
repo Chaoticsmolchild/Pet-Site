@@ -1,0 +1,83 @@
+/*base*/
+* {
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif !important;
+}
+
+body {
+    background-image: url('../images/5585664.jpg');
+    background-position: center;
+}
+/*nav*/
+.navbar-brand {
+    font-family: Belgrano !important ;
+    font-size: 40px;
+    font-weight: 900;
+    padding-left:20px;
+    padding-top: 5px;
+}
+
+.nav-item {
+    padding-top: 10px !important; 
+
+}
+.navbar ul {
+    margin-left:30% !important;
+}
+
+
+/*imagehoem*/
+
+.imgad {
+    max-width: 900px;
+    float: right;
+    min-width: 300px;
+}
+
+.txtad {
+    float:inline-start;
+    margin-top: 100px;
+}
+
+.txtad h1 {
+    font-family: 'Fira Sans', sans-serif;
+    color: #D86324;
+}
+
+.txtad h4 {
+    font-family: 'Fira Sans', sans-serif;
+    color: #c06331;
+}
+
+@media (min-width: 600px) {
+    .txtad {
+        font-size: 4rem;
+    }
+}
+
+/*abt*/
+.openingpara{
+    float:left;
+    margin-top: 10px;
+    padding: 20px;
+    
+}
+
+.abtimg {
+    float: right;
+}
+
+.wrapper {
+    background: rgba(255, 255, 255, 0.47);
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(4.1px);
+    -webkit-backdrop-filter: blur(4.1px);
+    border: 1px solid rgba(255, 255, 255, 0.07);
+    padding: 10px;
+}
+/*footer*/
+
+footer {
+    color: whitesmoke !important;
+    background-image: url("../images/");
+}
